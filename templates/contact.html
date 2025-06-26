@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+
+{% block title %}Contact Us{% endblock %}
+
+{% block content %}
+<div class="container py-5 mt-5">
+    <div class="text-center mb-5" data-aos="fade-down">
+        <h1 class="romantic-title">
+            <i class="fas fa-envelope text-romantic-pink"></i>
+            Get in Touch
+        </h1>
+        <p class="lead romantic-subtitle">We'd love to hear from you! 🐕💕</p>
+    </div>
+    
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <!-- Contact Form -->
+            <div class="contact-card" data-aos="fade-up">
+                <div class="contact-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3 class="contact-title">Send Us a Message</h3>
+                
+                <form action="{{ url_for('send_message') }}" method="POST" class="contact-form">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="name" class="form-label">
+                                <i class="fas fa-dog"></i> Your Name
+                            </label>
+                            <input type="text" 
+                                   class="form-control romantic-input" 
+                                   id="name" 
+                                   name="name" 
+                                   placeholder="Tell us your name"
+                                   required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="email" class="form-label">
+                                <i class="fas fa-envelope"></i> Email
+                            </label>
+                            <input type="email" 
+                                   class="form-control romantic-input" 
+                                   id="email" 
+                                   name="email" 
+                                   placeholder="your@email.com"
+                                   required>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="message" class="form-label">
+                            <i class="fas fa-heart"></i> Your Message
+                        </label>
+                        <textarea class="form-control romantic-input" 
+                                  id="message" 
+                                  name="message" 
+                                  rows="5" 
+                                  placeholder="Share your thoughts with us..."
+                                  required></textarea>
+                    </div>
+                    
+                    <div class="text-center">
+                        <button type="submit" class="btn romantic-btn romantic-btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send with Love
+                        </button>
+                    </div>
+                </form>
+            </div>
+            
+            <!-- Contact Info -->
+            <div class="row mt-5" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-md-4 mb-4">
+                    <div class="info-card">
+                        <div class="info-icon">🐕</div>
+                        <h4>Puppy Love Support</h4>
+                        <p>We're here to help with all your adorable needs!</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="info-card">
+                        <div class="info-icon">💌</div>
+                        <h4>Quick Response</h4>
+                        <p>We'll get back to you faster than a wagging tail!</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="info-card">
+                        <div class="info-icon">🌟</div>
+                        <h4>Made with Love</h4>
+                        <p>Every message is read with care and attention.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Add cute animations to the form
+    const inputs = document.querySelectorAll('.romantic-input');
+    inputs.forEach(input => {
+        input.addEventListener('focus', function() {
+            this.style.transform = 'translateY(-2px)';
+            this.style.boxShadow = '0 5px 15px rgba(255, 107, 157, 0.3)';
+        });
+        
+        input.addEventListener('blur', function() {
+            this.style.transform = 'translateY(0)';
+            this.style.boxShadow = 'none';
+        });
+    });
+    
+    // Add puppy animation
+    createPuppyHearts();
+});
+
+function createPuppyHearts() {
+    setInterval(() => {
+        const heart = document.createElement('div');
+        heart.innerHTML = ['🐕', '💕', '🐾', '💖'][Math.floor(Math.random() * 4)];
+        heart.className = 'floating-puppy-heart';
+        heart.style.cssText = `
+            position: fixed;
+            left: ${Math.random() * 100}%;
+            bottom: -50px;
+            font-size: ${Math.random() * 15 + 15}px;
+            z-index: 1000;
+            pointer-events: none;
+            animation: floatUpPuppy 6s linear forwards;
+            opacity: 0.6;
+        `;
+        
+        document.body.appendChild(heart);
+        
+        setTimeout(() => {
+            heart.remove();
+        }, 6000);
+    }, 3000);
+}
+
+// Add CSS for puppy hearts
+const puppyStyle = document.createElement('style');
+puppyStyle.textContent = `
+    @keyframes floatUpPuppy {
+        0% {
+            transform: translateY(0) rotate(0deg);
+            opacity: 0;
+        }
+        10% {
+            opacity: 0.6;
+        }
+        90% {
+            opacity: 0.6;
+        }
+        100% {
+            transform: translateY(-100vh) rotate(360deg);
+            opacity: 0;
+        }
+    }
+`;
+document.head.appendChild(puppyStyle);
+</script>
+{% endblock %}

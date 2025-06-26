@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "place": "Our Favorite Café",
+    "dish": "Vanilla Latte with Heart Art",
+    "caption": "The way your eyes light up when they make the perfect heart",
+    "location": "Downtown",
+    "priority": 5
+  },
+  {
+    "id": "2",
+    "place": "That Italian Place",
+    "dish": "Carbonara Pasta",
+    "caption": "You always save me the last bite",
+    "location": "Little Italy",
+    "priority": 4
+  },
+  {
+    "id": "3",
+    "place": "Ice Cream Paradise",
+    "dish": "Strawberry Cheesecake",
+    "caption": "Your happy dance when they have your favorite flavor",
+    "location": "Beach Boardwalk",
+    "priority": 3
+  }
+]

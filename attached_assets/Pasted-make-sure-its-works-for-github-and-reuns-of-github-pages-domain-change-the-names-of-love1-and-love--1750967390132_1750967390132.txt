@@ -1,0 +1,75 @@
+make sure its works for github and reuns of github pages domain. change the names of love1 and love 2 to Navu and Darling. the caht is refershing all the time.. do it without moving antg.. and pls check the functionality of al the chat things bothe the perople see it instantly and chat properly
+
+in period calculater use deault setting cycel lenght of 26 days and 3 days for period duration
+
+add these for why i love her page
+Your beautiful smile
+The way my world just stops when you smile. I forget everything. It’s like time pauses, and all that matters is you. That smile can fix anything.
+
+How you treat me specially
+You make me feel like I matter. Like I’m not just anyone, I’m your person. With you, I feel like I finally found home.
+
+Your sweet voice
+The way you laugh, the way you say my name, even when you’re upset — your voice brings me calm. It’s something I could never get tired of.
+
+Your family girl attitude
+The way you love and care for your family says everything about your heart. It’s strong, grounded, full of warmth and I love that about you.
+
+Your gentle heart towards me
+You’re soft with me, even when I mess up. You love with so much care, and that love reaches parts of me no one else ever touched.
+
+Your nature towards animals
+You’re so kind, so tender with them. It shows how pure your soul really is. Watching you around animals makes me fall for you all over again.
+
+Your religious side
+Your connection with your beliefs, your strength in your faith — it gives you this calm, this quiet power. And honestly, I admire that so much.
+
+Your eyes
+Your eyes… they make me forget who I am. I could get lost in them forever and still want more. One look from you and I’m gone.
+
+How you give me chances
+Even when I mess up, you choose me again. You believe in us, in me, even when I don’t believe in myself. That’s love, the kind I never knew I needed.
+
+How you forgive me
+You don’t hold on to the past. You love through the flaws, the fights, the mistakes. And that makes your love even more real.
+
+How you want to never leave me
+The way you hold on to us. How you say “we’ll get through it” instead of walking away. That kind of love is rare. And I’ll never take it for granted.
+
+Forever and always
+Not just words. It’s how I feel. With you, I’ve found everything I was looking for. I want you, all of you, in every lifetime.
+
+and use the below for the jouney page
+🌈 You are goodness in human form
+💘 You are a once-in-a-lifetime girl
+🌠 You’ll always be my favorite unforgettable wish
+✨ You are enough just as you are
+💫 You are magic in human form
+🌟 You’re the best thing that ever happened to me
+😊 Your smile lights up my entire world
+❤️ You are loved beyond measure
+💪 You are stronger than you know
+💗 You are my favorite person
+🌸 You make everything better
+🦋 You are absolutely beautiful
+🏡 You are my heart’s home
+🫶 You make me want to be a better man
+🙏 You are the kind of love people pray for
+🕊️ You are my calm in the chaos
+💞 You are the person I didn’t know I deserved
+
+use the below for apology page and fix the emoji an dheading allignment in that page
+My Dearest Love,
+
+I know I’ve hurt you, and my heart breaks knowing that I caused you pain. You mean everything to me, and seeing you upset because of my actions is unbearable.
+
+I was wrong. I should have been more thoughtful, more understanding, more present. You deserve someone who listens to your heart, who values your feelings, and who never takes your love for granted.
+
+I’m not asking for immediate forgiveness — I know trust needs to be rebuilt. But I want you to know that I’m committed to being better, to being the person you deserve.
+
+You are the light of my life, my best friend, my soulmate. I promise to do whatever it takes to make this right, to show you every day how much you mean to me.
+
+I love you more than words can express, and I’m so sorry for letting you down.
+
+Forever yours,
+Navu
